@@ -1,4 +1,4 @@
-package com.example.task1;
+package com.example.task;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -120,6 +120,7 @@ public class normal extends AppCompatActivity {
                             if(string3 == original){
                                 button3.setEnabled (false);
                             }
+                            editText.setText("");
                         }
                     };
 
@@ -152,6 +153,7 @@ public class normal extends AppCompatActivity {
                             if(string3 == original){
                                 button3.setEnabled (false);
                             }
+                            editText.setText("");
 
                         }
                     };

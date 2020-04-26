@@ -1,4 +1,4 @@
-package com.example.task1;
+package com.example.task;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
@@ -140,6 +140,7 @@ public class hacker extends AppCompatActivity {
                                     ScoreUpdate ();
 
                                 }
+                                editText.setText("");
 
                             }
                         };
@@ -172,6 +173,7 @@ public class hacker extends AppCompatActivity {
                                 if (string3 == original) {
                                     button3.setEnabled ( false );
                                 }
+                                editText.setText("");
 
                             }
                         };

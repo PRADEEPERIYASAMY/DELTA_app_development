@@ -1,4 +1,4 @@
-package com.example.task1;
+package com.example.task;
 
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -156,6 +156,7 @@ public class hackerPlus extends AppCompatActivity {
                                     ScoreUpdate ();
 
                                 }
+                                editText.setText("");
 
                             }
                         };
@@ -189,6 +190,7 @@ public class hackerPlus extends AppCompatActivity {
                                 if (string3 == original) {
                                     button3.setEnabled ( false );
                                 }
+                                editText.setText("");
 
                             }
                         };
