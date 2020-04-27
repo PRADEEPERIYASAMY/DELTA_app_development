@@ -51,6 +51,7 @@ public class hacker extends AppCompatActivity {
         textViewHigh = findViewById ( R.id.textView11 );
         constraintLayout = findViewById (R.id.mylayout );
         storage ();
+        score = 0;
         button.setOnClickListener (new View.OnClickListener () {
             @Override
             public void onClick(View v) {
