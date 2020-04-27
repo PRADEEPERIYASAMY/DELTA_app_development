@@ -62,6 +62,7 @@ public class hackerPlus extends AppCompatActivity {
         timercanvas.setEnabled ( false );
 
         storage ();
+        score = 0;
 
         button.setOnClickListener ( new View.OnClickListener () {
             @Override
