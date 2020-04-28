@@ -168,6 +168,8 @@ public class hacker extends AppCompatActivity {
                             @Override
                             public void onClick(View v) {
                                 editText.setEnabled ( true );
+                                score = 0;
+                                textView.setText ( "0" );
                                 constraintLayout.setBackgroundResource ( R.drawable.secondbackred );
                                 button.setEnabled ( true );
                                 String string1 = button1.getText ().toString ();
@@ -279,6 +281,8 @@ public class hacker extends AppCompatActivity {
                         constraintLayout.setBackgroundResource ( R.drawable.secondbackred );
                         editText.setEnabled ( true );
                         button.setEnabled ( true );
+                        score=0;
+                        textView.setText ( "0" );
                         String string1 = button1.getText ().toString ();
                         String string2 = button2.getText ().toString ();
                         String string3 = button3.getText ().toString ();

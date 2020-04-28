@@ -187,6 +187,8 @@ public class hackerPlus extends AppCompatActivity {
                             public void onClick( View v ) {
                                 Vibrator vibrator = (Vibrator) getSystemService ( Context.VIBRATOR_SERVICE );
                                 vibrator.vibrate ( 100 );
+                                score = 0;
+                                textView.setText ( "0" );
                                 countDownTimer.cancel ();
                                 layout.setBackgroundResource ( R.drawable.secondbackred );
                                 tim.cancel ();
@@ -311,6 +313,8 @@ public class hackerPlus extends AppCompatActivity {
                     public void onClick( View v ) {
                         Vibrator vibrator = (Vibrator) getSystemService ( Context.VIBRATOR_SERVICE );
                         vibrator.vibrate ( 100 );
+                        score = 0;
+                        textView.setText ( "0" );
                         countDownTimer.cancel ();
                         layout.setBackgroundResource ( R.drawable.secondbackred );
                         timer.cancel ();
